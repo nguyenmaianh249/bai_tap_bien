@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Ứng dụng tính điểm </title>
+</head>
+
+<body></body>
+<button onclick="tinhdiem()">Hãy nhập dữ liệu vào đây </button>
+<script>
+    function tinhdiem() {
+        alert("Hãy nhập vào điểm từng môn :");
+        let ly = Number(prompt("Nhập vào điểm môn lý :"));
+        let hoa = Number(prompt("Nhập vào điểm môn hóa :"));
+        let sinh = Number(prompt("Nhập vào điểm môn sinh :"));
+        let tb = (ly + hoa + sinh) / 3
+        let tong = ly + hoa + sinh
+        document.write('Trung bình là ' + tb)
+        document.write('<br/>')
+        document.write('Tổng là ' + tong)
+    }
+</script>
+
+</html>
