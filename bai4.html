@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Ứng dụng tính diện tích </title>
+</head>
+
+<body></body>
+<button onclick="tinhdientich()">Hãy nhập dữ liệu vào đây </button>
+<script>
+    function tinhdientich() {
+        alert(" Mời bạn nhập dữ liệu :")
+        let inputWidth;
+        let inputHeight;
+        inputWidth = prompt("Nhâp vào chiều rộng:");
+        inputHeight = prompt("Nhập vào chiều dài :");
+        let width = parseInt(inputWidth);
+        let height = parseInt(inputHeight);
+        let area = width * height
+        document.write('area là ' + area)
+    }
+</script>
+
+</html>
